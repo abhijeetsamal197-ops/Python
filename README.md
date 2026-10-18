@@ -114,4 +114,25 @@ while True:
         break
     else:
         print("Invalid choice. Select 1, 2, 3 or 4.")
+
+while True:
+    print("\nChoose an option:")
+    print("1. Generate video ideas")
+    print("2. Create titles and hashtags")
+    print("3. Estimate future views")
+    print("4. Exit")
+
+    choice = input("Your choice: ").strip()
+
+    if choice == "1":
+        video_ideas()
+    elif choice == "2":
+        title_creator()
+    elif choice == "3":
+        predict_views()
+    elif choice == "4":
+        print("Keep creating. Good luck!")
+        break
+    else:
+        print("Invalid choice. Select 1, 2, 3 or 4.")
         
